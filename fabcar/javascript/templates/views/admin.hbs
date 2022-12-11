@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #E0E0E0;
+    }
+
+    .box {
+        width: 25%;
+        margin-top: 10px;
+        border: solid 2px rgb(13, 216, 115)
+
+    }
+
+    .box:hover {
+        opacity: .98;
+        box-shadow: 3px 3px rgb(25, 24, 26);
+    }
+
+    .outerDiv {
+
+        border-radius: 5px;
+        {{!-- background-color: #66999B; --}}
+        height: 250px;
+        width: 35%;
+        margin: 0px auto;
+        padding: 5px;
+        
+
+    }
+
+    .leftDiv {
+        color: rgb(9, 94, 68);
+        width: 48%;
+        margin-left: 10px;
+        float: left;
+        font-weight: 800;
+
+    }
+
+    .rightDiv {
+        margin-left: 10px;
+        color: rgb(9, 94, 68);
+        width: 48%;
+        float: right;
+    }
+    h2{
+        color: rgb(23, 23, 102);
+    }
+
+    center h4{
+        color: firebrick;
+    }
+</style>
+
+<body>
+    {{>adminHeader}}
+    <br>
+    <center>
+        <h1><u>Registered Clients List</u></h1>
+    </center>
+    
+    <div class="container">   
+    </div>
+
+    <script src="/js/admin.js"></script>
+</body>
+
+</html>

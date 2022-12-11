@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .text-left {
+            color: #ffffff;
+            display: flex;
+            gap: 10%;
+            justify-content: space-evenly;
+        }
+
+        a {
+            color: white;
+        }
+
+        a:hover,
+        a:active {
+            color: #67ff01;
+            text-decoration: none;
+            outline: 0;
+        }
+    </style>
+
+    <title>Header</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light py-4" style="background-color: rgba(54, 70, 77, 1);">
+            <a class="navbar-brand" href="#">
+                <img class="tax-code"
+                    src="https://cdn.discordapp.com/attachments/829418444679807046/835309826287468615/logo.jpg"
+                    width="50" height="50" alt="logo">
+            </a>
+            
+            <div class="text-left text-center">
+                <a href="/user/client/adddata">
+                    <h5>Add Transaction</h5>
+                </a>
+                <a href="/user/client/checktaxstatus">
+                    <h5>Check Tax Status</h5>
+                </a>
+            </div>
+            <div class=" text-right">
+                <button type="button" class="btn btn-warning ml-2">Sign Out</button>
+            </div>
+        </nav>
+    </header>
+
+</body>
+</html>
